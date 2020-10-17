@@ -4,5 +4,6 @@ path="github.com/refactoringui/heroicons"
 [[module.imports.mounts]]
 source = "src"
 target = "assets/svg/heroicons"
+[[module.imports.mounts]]
 source = "optimized"
 target = "assets/svg/heroicons/optimized"
