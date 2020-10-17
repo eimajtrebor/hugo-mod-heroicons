@@ -1,4 +1,4 @@
-module github.com/gohugoio/hugo-mod-heroicons
+module github.com/eimajtrebor/hugo-mod-heroicons
 
 go 1.13
 
