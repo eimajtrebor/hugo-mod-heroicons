@@ -16,8 +16,8 @@ The icons gets mounted in `assets/svg/heroicons`.
 This means that they can be used like this in a Hugo template:
 
 ```html
-{{ $icon := resources.Get "svg/heroicons/outline/search.svg" }} {{ $icon.Content
-| safeHTML }}
+{{ $icon := resources.Get "svg/heroicons/outline/search.svg" }}
+{{ $icon.Content | safeHTML }}
 ```
 
 Optimized icons get mounted in `assets/svg/heroicons/optimized`.
@@ -25,8 +25,8 @@ Optimized icons get mounted in `assets/svg/heroicons/optimized`.
 This means that they can be used like this in a Hugo template:
 
 ```html
-{{ $icon := resources.Get "svg/heroicons/optimized/outline/search.svg" }} {{
-$icon.Content | safeHTML }}
+{{ $icon := resources.Get "svg/heroicons/optimized/outline/search.svg" }}
+{{ $icon.Content | safeHTML }}
 ```
 
 See https://github.com/refactoringui/heroicons/tree/master/src for a full list of icons.
